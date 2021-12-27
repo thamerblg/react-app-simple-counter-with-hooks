@@ -1,13 +1,76 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #eee;
+}
+h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+}
+.counterValue {
+  font-size: 7rem;
+  font-family: monospace;
+  margin: 2rem 0;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.form-container p {
+  font-size: 15px;
+  padding-right: 1em;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+button {
+  border: none;
+  border: 2px solid #1b5996;
+  margin: 1rem;
+  display: block;
+  width: 100px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
+  transition: background 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  background: #1b5996;
+  color: #f1f5f8;
+}
+.jumbotron__window {
+  background-color: #f7f7f7;
+  border: 0px;
+  width: 80px;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 5px 0px;
+  text-align: center;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
 }
